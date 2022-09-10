@@ -1704,11 +1704,11 @@ img {
   align-items: center;
   flex-direction: column;
   padding: 50px 0;
-  transform-style: preserve-3d;
+  /*transform-style: preserve-3d;*/
 }
 
 .container .card:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
   border-radius: 5px;
 }
 
@@ -1755,7 +1755,7 @@ img {
 }
 
 .container .card:hover .contentCrd {
-  transform: translateZ(50px) scaleY(1);
+  transform: translateZ(5px) scaleY(1);
 }
 
 /* Carrousel */
@@ -1808,4 +1808,8 @@ img {
 /* Active state */
 .test-shine:active:after {
   opacity: 0;
+}
+
+.container-fluid {
+  width: 80%;
 }
